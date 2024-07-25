@@ -113,7 +113,7 @@ renderToObject() // A way to represent the entry as an object
 Processing a bill should do all the following:
 
  1. Sort all bill entries in ascending priority
- 2. Iterate through each item
+ 2. Iterate through each entry
     1. Call calculate with the current bill state
     2. Update the items on the bill
  3. Return the final bill
