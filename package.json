@@ -1,0 +1,17 @@
+{
+  "name": "composite-js-example",
+  "version": "1.0.0",
+  "description": "The composite pattern gives a uniform interface to collections and individual objects, allowing both to be processed by the same logic. In this example we'll use a restaurant bill to show how the composite pattern can be used to model a real world problem.",
+  "main": "main.js",
+  "scripts": {
+    "test": "mocha --recursive",
+    "start": "node main.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chai": "^5.1.1",
+    "fix-esm": "^1.0.1",
+    "mocha": "^10.7.0"
+  }
+}
