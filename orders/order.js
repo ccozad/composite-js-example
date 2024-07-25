@@ -1,10 +1,10 @@
-module.export = class OrderManager {
+module.exports = class Order {
     constructor() {
-        this.orderEntries = [];
+        this.entries = [];
     }
 
-    addOrderEntry(entry) {
-        this.orderEntries.push(entry);
+    addEntry(entry) {
+        this.entries.push(entry);
     }
 
     calculateBill() {
@@ -12,7 +12,8 @@ module.export = class OrderManager {
             total: 0.0,
             items: []
         };
-        this.orderEntries.forEach(entry => {
+        this.entries = this.entries.sort((a, b) => a.billingPriority - b.billingPriority);
+        this.entries.forEach(entry => {
             bill.total = entry.calculate(bill);
             bill.items.push(entry.renderToObject());
         });
