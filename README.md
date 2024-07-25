@@ -105,8 +105,8 @@ Each entry on the bill needs to be able to:
 billingCode() // An identier that discounts can use to identify a type of purchase
 billingPriority() // The priority against other calculations, lower numbers are processed first
 calculate(bill) // Entry specific processing for the total
-renderToString() // A way to represent the entry as an object
-renderToObject() // A way to represent the entry as a string
+renderToString() // A way to represent the entry as a string
+renderToObject() // A way to represent the entry as an object
 
 ```
 
