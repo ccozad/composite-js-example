@@ -136,6 +136,14 @@ Processing a bill should do all the following:
 }
 ```
 
-Resources
+# Running the code
+
+After you pull the code you will need to run `npm install` followed by `npm start`
+
+# Testing the code
+
+You can run the Mocha based unit tests by running `npm install` followed by `npm run test`
+
+# Resources
  - https://en.wikipedia.org/wiki/Composite_pattern
  - https://refactoring.guru/design-patterns/composite
